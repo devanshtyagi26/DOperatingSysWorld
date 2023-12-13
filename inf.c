@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <unistd.h>
+
+int main() {
+    while (1) {
+        printf("Running...\n");
+        sleep(2);  // Simulate some work being done
+    }
+
+    return 0;
+}
